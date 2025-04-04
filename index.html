@@ -1,95 +1,95 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Learning CSS</title>
-    <style>
-      h1 {
-        color: red;
-      }
+<head>
+<style>
+ol {
+  background: #da2121;
+  padding: 20px;
+}
 
-      p {
-        margin: 32px;
-      }
+ul {
+  background: #da1280;
+  padding: 20px;
+}
 
-      button {
-      }
+ol li {
+  background: #0eb933;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
 
-      /* TODO: add styles for header  */
-      
-      /* TODO: add styles for footer  */
+ul li {
+  background: #1aa8bb;
+  color: darkblue;
+  margin: 5px;
+}
 
-      .paragraph-1 {
-        background-color: pink;
-      }
-    </style>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1 style="text-decoration: underline">I like cats!
-      </h1>
-    </header>
-    <main>
-      <p class="paragraph-1" style="">
-        <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
-        sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar <strong>mattis</strong> nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam.    
-      </p>
-    
-      <p style="">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
-        sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar mattis nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.
-        Nulla aliquet enim tortor at auctor urna nunc id cursus. Gravida arcu ac
-        tortor dignissim convallis aenean. Nulla porttitor massa id neque aliquam
-        vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
-        erat nam at lectus urna duis.
-      </p>
-    
-      <p style="">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
-        sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar mattis nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.
-        Nulla aliquet enim tortor at auctor urna nunc id cursus. Gravida arcu ac
-        tortor dignissim convallis aenean. Nulla porttitor massa id neque aliquam
-        vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
-        erat nam at lectus urna duis.
-      </p>
-    
-      <table>
-        <tr>
-          <th style="">item</th>
-          <th style="">price</th>
-        </tr>
-        <tr>
-          <td style="">hotwheels car</td>
-          <td style="">$4.99</td>
-        </tr>
-        <tr>
-          <td style="">
-            Cabbage patch doll
-          </td>
-          <td style="">$1.99</td>
-        </tr>
-      </table>
-    
-      <button style="">Buy Now!</button>
-    </main>
-  
-    <nav>
-      <a> HOME </a> |
-      <a> ABOUT </a> |
-      <a> GALLERY </a>
-    </nav>
-    
-    <footer>
-    </footer>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
-    <script src="./script.js"></script>
-  </body>
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>Games I Play Religiously</h1>
+
+<ol>
+  <li>Monster Hunter Wilds</li>
+  <li>Final Fantasy VII Remake</li>
+  <li>Final Fantasy VII Rebirth</li>
+</ol>
+
+<ul>
+  <li>Sonic Colors</li>
+  <li>Monster Hunter World:Iceborne</li>
+  <li>Palworld</li>
+</ul>
+
+
+<table id="customers">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Walmart</td>
+    <td>Darryl Clay</td>
+    <td>Baton Rouge</td>
+  </tr>
+  <tr>
+    <td>GameStop</td>
+    <td>Jeremiah Dixon</td>
+    <td>Louisiana</td>
+  </tr>
+  <tr>
+    <td>Albertsons</td>
+    <td>Angel Watts</td>
+    <td>Baton Rouge</td>
+  </tr>
+
+
+</body>
 </html>
+<footer>©️March 2025 Cohort</footer>
+
